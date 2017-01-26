@@ -4,5 +4,11 @@
   "main": "index.js",
   "repository": {},
   "author": "GimYoungPhil <youngphil.gim@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.17.4"
+  },
+  "devDependencies": {
+    "webpack": "beta"
+  }
 }
