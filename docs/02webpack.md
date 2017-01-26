@@ -1,4 +1,4 @@
-# 2 files
+# 2 webpack
 
 [babeljs modules](https://babeljs.io/learn-es2015/#ecmascript-2015-features-modules)
 
