@@ -1,8 +1,8 @@
 # webpack-study
 
-## bundle
+## yarn install
 ```sh
-$ yarn run bundle
+$ yarn
 ```
 
 ## python
