@@ -1,5 +1,7 @@
 # 2 files
 
+[babeljs modules](https://babeljs.io/learn-es2015/#ecmascript-2015-features-modules)
+
 ## 2.1 bar.js 파일 작성
 `./src/bar.js`
 ```js
@@ -10,7 +12,7 @@ export default 'HiHello';
 ## 2.2 app.js 파일 작성
 `./src/app.js`
 ```js
-import _ from 'lodash/core';
+import _ from 'lodash';
 import bar from './bar';
 
 console.log(_.startCase(bar));
