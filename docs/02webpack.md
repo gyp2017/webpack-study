@@ -35,7 +35,7 @@ console.log(_.startCase(bar));
 
 ## 2.3 bundle 실행
 ```sh
-$ ./node_modules/.bin/webpack ./src/app.js ./dist/bundle.js
+$ ./node_modules/.bin/webpack /src/app.js /dist/bundle.js
 ```
 
 `./dist/bundle.js` 파일 확인
@@ -67,7 +67,7 @@ $ open http://loaclhost:8000
   ...
   "scripts": {
     "server": "python -m SimpleHTTPServer 8000",
-    "bundle": "webpack ./src/app.js ./dist/bundle.js"
+    "bundle": "webpack /src/app.js /dist/bundle.js"
   }
   ...
 }

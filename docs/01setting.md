@@ -10,7 +10,7 @@ $ yarn --version
 
 
 ## 1.2 yarn init
-`package.json` 파일이 생성
+`package.json`, `yarn.lock` 파일이 생성
 ```sh
 $ yarn init
 ```
