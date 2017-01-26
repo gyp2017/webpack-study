@@ -5,6 +5,10 @@
   "repository": {},
   "author": "GimYoungPhil <youngphil.gim@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "server": "python -m SimpleHTTPServer 8000",
+    "bundle": "webpack ./src/app.js ./dist/bundle.js"
+  },
   "dependencies": {
     "lodash": "^4.17.4"
   },

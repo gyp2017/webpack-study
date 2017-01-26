@@ -8,10 +8,10 @@ $ cd myProject
 
 ## 0.2 .gitignore 파일 생성
 ```sh
-.DS_Store
-*.log
 node_modules/
 dist/
+.DS_Store
+*.log
 ```
 
 ## 0.3 README.md 파일 생성
